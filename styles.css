@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Luxurious+Roman&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: teal;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+a:hover {
+  color: teal;
+  transition: 0.5s ease-in-out;
+}
+
+.icono-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .icono-menu {
+    display: block;
+    position: absolute;
+    right: 36px;
+    top: 26px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    display: none;
+    background-color: beige;
+  }
+
+  .mostrar {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 1% 0;
+  }
+  nav ul li a {
+    color: black;
+  }
+}
