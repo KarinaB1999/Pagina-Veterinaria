@@ -53,6 +53,60 @@ a:hover {
   display: none;
 }
 
+.contenido-header {
+  width: 50%;
+  position: relative;
+  top: 16%;
+  left: 9%;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+form {
+  margin-top: 3%;
+}
+
+input {
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+.bsuscribirse {
+  display: block;
+  margin-top: 3%;
+  width: 50%;
+  font-size: 1.6rem;
+  background-color: teal;
+  color: white;
+  border: none;
+}
+
+div {
+  color: black;
+}
+
+.contenedoracerca {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  color: black;
+  font-size: 2rem;
+}
+
+.quienes-somos,
+.historia,
+mision-vision {
+  width: 30%;
+}
+
 @media only screen and (max-width: 768px) {
   .icono-menu {
     display: block;
