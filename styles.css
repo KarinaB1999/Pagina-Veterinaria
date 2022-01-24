@@ -9,12 +9,12 @@
   color: white;
 }
 
-h1 {
+.logo h1 {
   font-size: 3.6rem;
   color: teal;
 }
 
-li {
+.lista-menu li {
   display: inline;
   margin-left: 15px;
 }
@@ -34,12 +34,12 @@ nav {
   justify-content: space-between;
 }
 
-ul {
+nav ul {
   list-style: none;
   margin-top: 20px;
 }
 
-a {
+nav a {
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -60,19 +60,19 @@ a:hover {
   left: 9%;
 }
 
-h2 {
+.contenido-header h2 {
   font-size: 3.6rem;
 }
 
-p {
+.contenido-header p {
   font-size: 1.4rem;
 }
 
-form {
+.contenido-header form {
   margin-top: 3%;
 }
 
-input {
+.contenido-header input {
   font-size: 1.6rem;
   width: 50%;
 }
@@ -86,25 +86,186 @@ input {
   color: white;
   border: none;
 }
-
-div {
-  color: black;
-}
-
 .contenedoracerca {
   display: flex;
   justify-content: space-evenly;
 }
 
-h3 {
+.contenedoracerca h3 {
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .quienes-somos,
 .historia,
-mision-vision {
-  width: 30%;
+.mision-vision {
+  flex-basis: 30%;
+  padding: 1.6rem;
+}
+
+.parrafo {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: teal;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.historia h4 {
+  color: black;
+  font-size: 1.6rem;
+}
+
+.mision-vision h4 {
+  color: black;
+  font-size: 1.6rem;
+}
+
+.Testimonios h4 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.foto-acerca {
+  width: 80%;
+}
+
+.contenedor-testimonios {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.tarjeta-testimonio {
+  flex-basis: 50%;
+}
+
+.tarjeta-testimonio p {
+  font-size: 1rem;
+}
+
+.foto-perfil {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 2px solid teal;
+}
+.datos-cliente {
+  display: flex;
+}
+
+.nombre-cliente {
+  padding: 2rem 1.5rem;
+}
+
+.Testimonios {
+  text-align: center;
+  background: black;
+}
+
+.datos-testimonios {
+  color: white;
+}
+
+.contacto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+.contacto h3 {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario-contacto input {
+  width: 40rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.formulario-contacto textarea {
+  width: 40rem;
+  height: 15rem;
+  color: black;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.formulario-contacto button {
+  width: 40rem;
+}
+
+footer {
+  background: black;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: white;
+}
+.footer-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-contenido h3 {
+  color: white;
+  font-size: 2.6rem;
+}
+.footer-contenido p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.redes-sociales {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.redes-sociales li {
+  margin: 0 10px;
+}
+.redes-sociales a {
+  text-decoration: none;
+  color: white;
+}
+.redes-sociales a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.redes-sociales a:hover i {
+  color: teal;
+}
+
+.footer-bottom {
+  background: black;
+  padding: 20px;
+}
+.footer-bottom p {
+  font-style: italic;
+  font-size: 10px;
+  text-transform: capitalize;
+  text-align: right;
 }
 
 @media only screen and (max-width: 768px) {
